@@ -1,0 +1,20 @@
+.test {
+  position: relative;
+  height: 10px;
+  background: linear-gradient(
+    76deg,
+    rgba(0, 143, 183, 1) 0%,
+    rgb(246, 205, 117) 32%,
+    rgba(242, 122, 16, 1) 48%,
+    rgba(255, 55, 223, 1) 100%
+  );
+}
+
+.testblur {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  filter: blur(10px);
+}
