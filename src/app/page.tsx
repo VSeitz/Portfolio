@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={`container ${styles.teaser}`}>
-        <span className={styles.brand}>Qnex</span>
+        <span className={styles.brand}>Qnex.</span>
         <hr />
-        <h1 className={styles.teaser}>Enterprise Fullstack-Developer</h1>
+        <h1 className={styles.teaserText}>Enterprise Fullstack-Developer</h1>
       </div>
 
       <div className="container content">
