@@ -41,20 +41,16 @@ body {
 }
 
 body {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+
   color: rgb(var(--foreground-rgb));
   background-color: black;
   /* background-position: center; */
-  background-size: cover;
-  /* filter: blur(10px); */
-  /* background-color: white; */
-  /* background: rgb(0, 143, 183); */
-  /* background: linear-gradient(
-    76deg,
-    rgba(0, 143, 183, 1) 0%,
-    rgb(246, 205, 117) 32%,
-    rgba(242, 122, 16, 1) 48%,
-    rgba(255, 55, 223, 1) 100%
-    ); */
+
+  // background-image: url("/patterns.svg");
+  background-size: contain;
 }
 
 a {
